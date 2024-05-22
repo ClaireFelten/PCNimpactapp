@@ -1,11 +1,6 @@
 streamlit
 pandas 
 numpy 
-plotly.express
-plotly.graph_objects
-sklearn.impute #SimpleImputer
-sklearn.preprocessing #StandardScaler
-sklearn.ensemble  #RandomForestRegressor
-sklearn.neural_network #MLPRegressor
-sklearn.metrics #r2_score, mean_squared_error
-matplotlib.pyplot 
+plotly
+scikit-learn
+matplotlib 
