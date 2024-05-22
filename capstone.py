@@ -13,14 +13,14 @@ import matplotlib.pyplot as plt
 # AN APP BY CLAIRE FELTEN 
 
 # Load the dataset
-data = pd.read_csv('/Users/clairefeltenpath/Desktop/PCN county data.csv')
+data = pd.read_csv('PCN county data.csv')
 data['PCNs_all'] = data['PCNs_not'] + data['PCNs_inprog'] + data['PCNs_complete']
 data['PCNs_not_perc'] = data['PCNs_not'] / data['PCNs_all']
 data['PCNs_inprog_perc'] = data['PCNs_inprog'] / data['PCNs_all']
 data['PCNs_complete_perc'] = data['PCNs_complete'] / data['PCNs_all']
 
-county_info_df = pd.read_csv('/Users/clairefeltenpath/Desktop/county_info.csv')
-county_sizepop_df = pd.read_csv('/Users/clairefeltenpath/Desktop/county_sizepop.csv')
+county_info_df = pd.read_csv('county_info.csv')
+county_sizepop_df = pd.read_csv('county_sizepop.csv')
 
 
 # Convert non-numeric values to NaN
